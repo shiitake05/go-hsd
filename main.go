@@ -1,3 +1,6 @@
+// カレントディレクトリにビルド結果が生成されない
+// 「go env GOCACHE」でキャッシュディレクトリに格納されていることを確認できる
+// 「go clean --modcache」で消せる
 package hsd
 
 func StringDistance(lhs, rhs string) int {
